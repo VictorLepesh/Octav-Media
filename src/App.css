@@ -121,3 +121,10 @@ nav {
 .registerForm .registerSubmit:hover {
   background-color: #ff9933;
 }
+
+
+/* JsonOutput CSS */
+
+.orderedList {
+  margin: 40px;
+}

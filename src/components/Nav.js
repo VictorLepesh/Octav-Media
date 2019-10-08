@@ -10,16 +10,16 @@ export default class Nav extends Component {
 
                 <ul className="nav-links">
                     <li>
-                        <a href="#">Home</a>
+                        <a href="home">Home</a>
                     </li>
                     <li>
-                        <a href="#">Chat</a>
+                        <a href="chat">Chat</a>
                     </li>
                     <li>
-                        <a href="#">Forum</a>
+                        <a href="forum">Forum</a>
                     </li>
                     <li>
-                        <a href="#">Login</a>
+                        <a href="login">Login</a>
                     </li>
                 </ul>
 

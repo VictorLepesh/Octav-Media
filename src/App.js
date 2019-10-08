@@ -10,6 +10,7 @@ function App() {
       < Nav/>
       <div className="container">
         <RegisterForm/>
+        <JsonOutput/>
       </div>
     </div>
     // App div above
