@@ -10,7 +10,6 @@ export default class JsonOutput extends Component {
       };
     }
     
-    
     componentDidMount() { // some lifecycle method, whatever that is
       fetch('https://jsonplaceholder.typicode.com/posts') //https://facebook.github.io/react-native/movies.json
       .then( response => response.json())
@@ -21,7 +20,6 @@ export default class JsonOutput extends Component {
             posts : result
           });
         },
-
         (error) => {
           this.setState({
             isLoaded : true,

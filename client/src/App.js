@@ -4,6 +4,7 @@ import Nav from "./components/Nav.js";
 import RegisterForm from "./components/RegisterForm.js";
 import JsonOutput from "./components/JsonOutput.js"
 
+
 function App() {
   return (
     <div className="App">
@@ -18,3 +19,4 @@ function App() {
 }
 
 export default App;
+
